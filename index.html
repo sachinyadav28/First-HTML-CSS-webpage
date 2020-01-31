@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/WebPage.css">
+    </head>
+    <body>
+        <ul id="skip">
+            <li><a href="#main-image">Skip to main content</a></li>
+        </ul>
+        <nav id="mySidenav" class="sidenav">
+            <ul>
+            <li><button href="javascript:void(0)" aria-expanded="false" class="closebtn" onclick="closeNav()">&times;</button></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <button class="open" id="hamburger" aria-hidden="true" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+            
+            <div class="main_image" id="main-image">
+                <img src="img/main/trees.jpg" alt="Tree Image" id="hed"> 
+                <img src="img/main/man.png" alt="Man Avatar" id="hed1">
+            </div>
+
+
+            <section class="about">
+                <div class="content_heading">
+                    <h3>About Me</h3>
+                    <hr class="underline">
+                    <hr class="big_underline">
+                </div>
+
+                <div class="about_content">
+                    <img class="person_image" src="img/person/0.png">
+
+                    <div class="content_details">
+                        <div class="about_title">
+                            <h3>I'm Albert Walkers and <span class="font_red">Freelancer</span></h3>
+                            <p>Hi! My name is <span class="font_red">Albert Walkers</span>. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and
+                                    knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                        <div class="details">
+                            <div class="details_firstside">
+                                <ul>
+                                <li>
+                                    <span><label>Birthday:</label> 01.07.1990</span>
+                                </li>
+                                <li>
+                                    <span><label>Location:</label> <a class="font_red" href="#">Ave 11, New York, USA</a></span>
+                                </li>
+                                <li>
+                                    <span><label>Study:</label> <a class="font_red" href="#"> Univercity of Chicago</a></span>
+                                </li>
+                                <li>
+                                    <span><label>Mail:</label> <a class="font_red" href="mailto:example@gmail.com">mymail&#64;gmail.com</a></span>
+                                </li>
+                                </ul>
+                            </div>
+                            <div class="details_secondside">
+                                <ul>
+                                <li>
+                                    <span><label>Age:</label> 29</span>
+                                </li>
+                                <li>
+                                    <span><label>Interests:</label> Playstation, Reading</span>
+                                </li>
+                                <li>
+                                    <span><label>Degree:</label> Master</span>
+                                </li>
+                                <li>
+                                    <span><label>Phone:</label> <a class="font_red" href="tel:+77 022 177 05 05">+77 022 177 05 05</a></span>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="button_flex">
+                            <div class="buttons">
+                                <button class="button_touch" href="#">Download CV</button>
+                                <button class="button_touch" href="#">Send Message</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="creative_work">
+                <div class="content_heading">
+                    <h3> Creative Works </h3>
+                    <hr class="underline">
+                    <hr class="big_underline">
+                </div>
+                <div class="row_image">
+                    <div class="flex_container">
+                        <div class="sub_flex" alt="Mockup Collection"><img src = "img/creative/1.jpg"></div>
+                        <div class="sub_flex" alt="Yellow and Black Box"><img src = "img/creative/2.jpg"></div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="sub_flex" alt="Piece of Magazine"><img src = "img/creative/4.jpg"></div>
+                        <div class="sub_flex" alt="Yellow Cup"><img src = "img/creative/5.jpg"></div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="sub_flex" alt="Black Bag and Badge"><img src = "img/creative/3.jpg"></div>
+                        <div class="sub_flex" alt="Mix Mockup"><img src = "img/creative/6.jpg"></div>
+                    </div>
+                </div>    
+            </section>  
+
+
+
+
+            <section class="fully_responsive">
+
+                <div class="left_side">
+                    <img class="laptop" src = "img/laptop/laptop.png" alt="Laptop Image">
+                </div>
+                <div class="right_side">
+                    <h3 style="margin-top: 10px;font-size: 23px"> Fully Responsive </h3>
+                    <p>Arlo practically looks good in all devices: IPhone, Blackbarry, Tablet, and Laptops.</p>
+                    <h3 style="margin-top: 10px;font-size: 23px">Friendly Support</h3>
+                    <p>Our support team work 24/7. And they can help you any time, if you have any problem.</p>
+                    <h3 style="margin-top: 10px;font-size: 23px">Cross Browsing</h3>
+                    <p>Template works stability in all modern web browsers. Such as Opera, Mozilla, Chrome, Safari and etc.</p>  
+                </div>
+            </section>
+
+
+
+
+
+            <section class="creative_work">
+                <div class="content_heading">
+                    <h3> Our Experts </h3>
+                    <hr class="underline">
+                    <hr class="big_underline">
+                </div>
+                <div class="row_image">
+                    <div class="flex_container">
+                        <div class="sub_flex" ><img src = "img/about/8.png" alt="Markus Image"></div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="sub_flex" ><img src = "img/about/9.png" alt="Monica Image"></div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="sub_flex" ><img src = "img/about/10.png" alt="Steve Image"></div>
+                    </div>
+                </div>    
+            </section>
+
+
+                
+                <section class="flex-container">
+                    <img src = "img/lables/11.png" alt="logo">
+                    <img src = "img/lables/12.png" alt="logo">
+                    <img src = "img/lables/13.png" alt="logo">
+                    <img src = "img/lables/14.png" alt="logo"> 
+                </section>
+
+
+
+                <footer class="get_in_touch">
+                    <div class="content_heading">
+                        <h3> Get in Touch </h3>
+                        <hr class="underline">
+                        <hr class="big_underline">
+                    </div>
+                    <div class="row_touch">
+                        <div class="column_touch">
+                          <ul>
+                            <li class="font_bottom_padding">
+                            <label>Location: </label><a class="font_red" href="#">11 Ave, New York, USA</a>
+                            </li >
+                            <li class="font_bottom_padding">
+                            <label>Phone: </label><a class="font_red" href="tel:+77 022 177 05 05">+77 022 177 05 05</a>
+                            </li>
+                            <li class="font_bottom_padding">
+                            <label>Website: </label><a class="font_red" href="https://mydomain.com" target="_blank">myaddress.com</a>
+                            </li>
+                            <li class="font_bottom_padding">
+                            <label>Twitter: </label><a class="font_red" href="https://twitter.com" target="_blank">@mytwitternick</a>
+                            </li>
+                            <li class="font_bottom_padding">
+                            <label>Facebook: </label><a class="font_red" href="https://fb.me/@facebooknick" target="_blank">@myfacebooknick</a>
+                            </li>
+                            <li class="font_bottom_padding">
+                            <label>Instagram: </label><a class="font_red" href="https://www.instagram.com" target="_blank">@myinstagramnick</a>
+                            </li>
+                            <li class="font_bottom_padding">
+                            <label>WhatsApp: </label><a class="font_red" href="https://wa.me/@whatsappNickName" target="_blank">@mywhatsappnick</a>
+                            </li>
+                            </ul> 
+                        </div>
+                        <div class="column_touch">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                            <button class="button_touch">Submit</button>
+                          </form>
+                        </div>
+                      </div>    
+                    </footer>
+            </main>
+    
+    
+    <script src="JS/WebPage.js"></script>    
+    </body>
+  
+</html>
